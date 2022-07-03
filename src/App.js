@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import BigText from './components/BigText/BigText'
+import Counter from './components/Counter/Counter'
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <BigText text='Hello Hari!'></BigText>
+        <Counter/>
       </header>
+
     </div>
   );
 }
